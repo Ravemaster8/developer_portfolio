@@ -1,0 +1,36 @@
+.profile_img {
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+}
+
+.button {
+    // font-family: 'Lemonada', cursive;
+    display: inline-block;
+    font-size: 15px;
+    color: rgba(98, 5, 112, 1);
+    background-color: rgba(94, 247, 163, 1);
+    margin: 10px;
+    padding: 30px 20px;
+    border: 1px solid black;
+    
+}
+
+.button:hover {
+    background-color: rgba(247, 150, 94, 1);
+    color: rgba(9, 27, 190, 1);
+}
+
+ul {
+    padding: 0;
+}
+
+.list-inline {
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
