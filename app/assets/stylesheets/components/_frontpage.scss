@@ -2,6 +2,7 @@
     height: 300px;
     width: 400px;
     display: inline-block;
+    margin: 0 auto;
 }
 
 ul {
@@ -19,5 +20,11 @@ ul {
   }
 
 body {
-    align-items: center;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }

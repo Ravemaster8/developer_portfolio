@@ -1,18 +1,22 @@
 .navbar {
-  justify-content: left;
+  display: flex;
   background: black;
-  color: white;
-  margin: 0;
+  margin: 0 auto;
+  padding: 20px 500px;
 }
 
-.navbar .navbar-collapse {
+.navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar .navbar_links:hover {
-  color: beige;
+#navbar_links {
+  color: white;
+  margin: 0 auto;
+  justify-content: space-around;
+
 }
 
-.navbar .navbar-brand img {
-  width: 40px;
+.navbar_links:hover {
+  color: beige;
+  
 }
