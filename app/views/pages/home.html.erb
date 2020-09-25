@@ -1,13 +1,13 @@
 <div class="container">
     <%= image_tag('Hans2.jpg', :class => "profile_img") %>
     <h1>Hi I'm Hans Preeker!</h1>
-    A enthousiastic developer who loves to create awesome experiences for others.
-    </br>
-    As I was planning on making a career change from Hospitality to IT in 2021,
-    then corona came in 2020 and I decided that was going to be the year to learn to code.
-    </br>
-    I followed the coding bootcamp at Le Wagon in Amsterdam. My current stack is Ruby on Rails, Javascript ES6, HTML5, CSS and MySQL.
-    </br>
+        A enthousiastic developer who loves to create awesome experiences for others.
+        </br>
+        As I was planning on making a career change from Hospitality to IT in 2021,
+        then corona came in 2020 and I decided that was going to be the year to learn to code.
+        </br>
+        I followed the coding bootcamp at Le Wagon in Amsterdam. My current stack is Ruby on Rails, Javascript ES6, HTML5, CSS and MySQL.
+        </br>
 </div>
 
 <div class="container">
@@ -16,10 +16,28 @@
         </br>
         </br>
         <div class="card-container">
-          <%= link_to image_tag("moveable_feasts.gif", border: 0, :class => "card-img"), "https://www.moveablefeasts.club", target: "_blank" %>
-          </br>
-          </br>
-          <%= link_to image_tag("bookborrow.png", border: 0, :class => "card-img"), "http://bookbookborrow.herokuapp.com/", target: "_blank" %>
+
+            <div class="img-container">
+                <%= link_to "https://www.moveablefeasts.club", target: "_blank" do %>
+                <%= image_tag "moveable_feasts.gif", border: 0, :class => "card-img" %>
+                <div class="middle">
+                    <div class="text">Movable Feasts</div>
+                </div>
+                <% end  %>
+            </div>
+
+            </br>
+            </br>
+            <div class="img-container">
+                <%= link_to "http://bookbookborrow.herokuapp.com/", target: "_blank" do %>
+                <%= image_tag "bookborrow.png", border: 0, :class => "card-img" %>
+                <div class="middle">
+                    <div class="text">Bookborrow</div>
+                </div>
+                <% end %>
+            </div>
+            
+            
         </div>
 </div>
 
@@ -31,13 +49,13 @@
 <div class="container">
     <h2>Follow me!</h2>
         <ul class="list-inline">
-        <li>
-            <a href="https://www.linkedin.com/in/hans-preeker-88271147/" target="_blank">
-            <i class="fab fa-linkedin"></i></a>
-        </li>
-        <li>
-            <a href="https://github.com/Ravemaster8" target="_blank">
-            <i class="fab fa-github"></i></a>
-        </li>
+            <li>
+                <a href="https://www.linkedin.com/in/hans-preeker-88271147/" target="_blank">
+                <i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/Ravemaster8" target="_blank">
+                <i class="fab fa-github"></i></a>
+            </li>
         </ul>
 </div>
