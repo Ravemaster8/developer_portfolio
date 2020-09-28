@@ -36,3 +36,18 @@ body {
     height: 35px;
     width: 35px;
 }
+
+.top-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+}
