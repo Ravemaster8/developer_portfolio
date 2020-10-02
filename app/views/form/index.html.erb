@@ -9,12 +9,15 @@
             </br>
             I followed the coding bootcamp at Le Wagon in Amsterdam. My current stack is Ruby on Rails, Javascript ES6, HTML5, CSS and MySQL.
             </br>
+
+        <h2>Flying IT Dutchman</h2>
+            Love traveling and would fly/move anywhere in the world for interesting jobs/projects.
     </div>
 
     <%= image_tag('Hans2.jpg', :class => "profile_img") %>
 </div>
 
-<div class="container">
+<div class="project-container">
     <h2>Projects</h2>
         The following projects is what I have worked on in the projectgroups of Le Wagon.
         </br>
@@ -38,17 +41,15 @@
                     </div>
                     <% end %>
                 </div>
-            
         </div>
 </div>
 
-<div class="container">
-    <h2>Flying IT Dutchman</h2>
-        <p>Love traveling and would fly/move anywhere in the world for interesting jobs/projects.</p>
-</div>
+    <div class="form-container">
+    <h2>Let's get in touch!</h2>
+        <%= render 'shared/contact_form' %>
+    </div>
 
-<div class="container">
-    <h2>Follow me!</h2>
+<div class="footer-container">
         <ul class="list-inline">
             <li>
                 <a href="https://www.linkedin.com/in/hans-preeker-88271147/" target="_blank">

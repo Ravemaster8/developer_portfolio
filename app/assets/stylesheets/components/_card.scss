@@ -1,7 +1,7 @@
 .card-container {
     display: grid;
-    // grid-column-gap: 25px;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    margin-bottom: 15px;
 }
 
 .img-container {
@@ -44,5 +44,3 @@
     font-size: 16px;
     padding: 16px 32px;
 }
-
-  
