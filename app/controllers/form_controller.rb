@@ -10,10 +10,10 @@ class FormController < ApplicationController
       if @contact.deliver
         # re-initialize Form object for cleared form
         @contact = Form.new
-        format.html { render 'root'}
+        format.html { render root_path}
         format.js   { flash.now[:success] = @message = "Thank you for your message. I'll get back to you soon!" }
       else
-        format.html { render 'root' }
+        format.html { render root_path }
         format.js   { flash.now[:error] = @message = "Message did not send." }
       end
     end
