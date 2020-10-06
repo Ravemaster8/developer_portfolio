@@ -1,3 +1,7 @@
+h1, h2, h3, h4 {
+    font-family: 'Patua One', cursive;
+}
+
 .profile_img {
     height: 300px;
     width: 400px;
@@ -24,9 +28,10 @@ ul {
 body {
     margin: 0 auto;
     text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
 
-.project-container {
+#project-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -35,7 +40,7 @@ body {
     height: 1000px;
 }
 
-.top-container {
+#top-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +63,7 @@ body {
     padding-bottom: 25px;
 }
 
-.form-container {
+#form-container {
     height: 800px;
 }
 
