@@ -1,5 +1,25 @@
 .contact-form-text-area {
     color: black;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+#contact-form-message {
+    height: 50px;
+}
+
+.contact-form-button {
+    background-color:#a1a1a1;
+    border: solid 3px white;
+    padding: 15px 30px;
+}
+
+.contact-form-button:hover {
+    background-color:black;
+    border: solid 3px white;
+    color: white;
 }
 
 .hidden { display: none; }

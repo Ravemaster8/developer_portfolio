@@ -18,9 +18,11 @@
   color: white;
   margin: 0 auto;
   justify-content: space-around;
-
+  padding: 10px 30px;
+  border-radius: 10px;
 }
 
-.navbar_links:hover {
-  color: beige;
+#navbar_links:hover {
+  color:black;
+  background-color: white;
 }
