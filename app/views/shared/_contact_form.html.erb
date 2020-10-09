@@ -1,21 +1,20 @@
-<%= form_for @contact, url: form_index_path, remote: true do |f| %>
-    <div>
-        <%= f.text_field  :name, required: true, class: "contact-form-text-area", placeholder: "Name" %></br>
-
-        <%= f.text_field :email, required: true, class: "contact-form-text-area", placeholder: "E-mail" %></br>
-
-        <%= f.text_area :message, required: true, class: "contact-form-text-area", id: "contact-form-message", placeholder: "Your message"%></br>
-
-        <div class= "hidden">
-          <%= f.label :nickname %>
-          <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
-        </div>
-
-      <%= f.submit 'SUBMIT MESSAGE', class: "contact-form-button" %>
-    </div>
-  <% end %>
-
+<%= form_for @contact, url: "form#index", remote: true do |f| %>
   <div>
-    <%= render 'shared/flash' %>
+      <%= f.text_field  :name, required: true, class: "contact-form-text-area", placeholder: "Name" %></br>
+
+      <%= f.text_field :email, required: true, class: "contact-form-text-area", placeholder: "E-mail" %></br>
+
+      <%= f.text_area :message, required: true, class: "contact-form-text-area", id: "contact-form-message", placeholder: "Your message"%></br>
+
+      <div class= "hidden">
+        <%= f.label :nickname %>
+        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+      </div>
+
+    <%= f.submit 'SUBMIT MESSAGE', class: "contact-form-button" %>
   </div>
-  
+<% end %>
+
+<div>
+  <%= render 'shared/flash' %>
+</div>

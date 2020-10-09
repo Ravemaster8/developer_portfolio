@@ -5,7 +5,7 @@
 
 require("@rails/ujs").start()
 require("@rails/activestorage").start()
-require("channels")
+import "channels";
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
@@ -31,3 +31,6 @@ document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
 });
+
+// import $ from 'jquery';
+// global.$ = jQuery;
