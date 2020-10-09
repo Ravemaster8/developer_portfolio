@@ -7,7 +7,7 @@ class FormController < ApplicationController
     @contact = Form.new(params[:form])
     @contact.request = request
     respond_to do |format|
-      if @contact.save
+      if @contact.deliver
         # re-initialize Form object for cleared form
         @contact = Form.new
         format.html { render root_path}
