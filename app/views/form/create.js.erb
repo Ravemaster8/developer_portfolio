@@ -1,0 +1,5 @@
+
+console.log("This is the create.js.erb file");
+
+$('#contact').html("<%= j render 'shared/contact_form' %>");
+$('#flash-message').html("<%= j render 'shared/flash' %>").delay(3000).fadeOut(4000);
