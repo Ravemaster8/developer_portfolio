@@ -55,6 +55,15 @@
 <div id="form-container">
     <h2>Let's get in touch!</h2>
     <%= render 'shared/contact_form' %>
+    </br>
+    <h2>OR</h2>
+
+        <%= mail_to "hans_preeker@hotmail.com", :class => "mail_to" do %>
+        <%= image_tag 'envelope', :class => "email-img" %>
+                <p class="email-text">Email me</p>
+            
+        <% end %>
+    
 </div>
 
 <div class="footer-container">
