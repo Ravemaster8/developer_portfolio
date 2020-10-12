@@ -80,3 +80,20 @@ body {
 .footer-text {
     color: white;
 }
+
+@media (max-width: 500px){
+    #top-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project-container {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    #form-container {
+        width: 100%;
+    }
+}
