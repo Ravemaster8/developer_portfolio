@@ -84,22 +84,23 @@ body {
 @media (max-width: 500px){
     #top-container {
         padding-top: 25px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-bottom: 50px;
-        width: 100vw;
-        height: 100vh;
     }
 
     #project-container {
         padding-top: 50px;
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+    }
+
+    #form-container {
+        width: 100%;
     }
 
     .text-container {
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
     }
 
 }
