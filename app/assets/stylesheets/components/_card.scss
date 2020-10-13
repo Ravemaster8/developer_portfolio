@@ -45,3 +45,13 @@
     font-weight: 900;
     padding: 16px 32px;
 }
+
+@media (max-width: 500px){
+    .img-container {
+        width: 100%;
+    }
+
+    .card-img {
+        width: 100%;
+    }
+}
